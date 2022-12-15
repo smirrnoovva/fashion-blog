@@ -1,0 +1,156 @@
+* {
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #000000;
+}
+a.navbar-brand {
+    font-size: 48px;
+    line-height: 64px;
+}
+.navbar-collapse {
+    flex-grow: 0;
+}
+.nav-link img:first-child {
+    margin-right: 30px;
+}
+h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #000000;
+}
+
+section {
+    padding: 50px 0;
+}
+
+footer {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #000000;
+    padding: 28px 0;
+}
+
+.logo {
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.carousel-control-prev {left: -35px;}
+.carousel-control-next {right: -35px;}
+.carousel-control-prev-icon {background-image: url("content/general/arrowtotheleft.png");}
+.carousel-control-next-icon {background-image: url("content/general/arrowtotheright.png");}
+
+.button {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 12px 16px;
+    font-size: 18px;
+}
+
+.outline-2-dark {
+    outline: #000000 solid 5px;
+    outline-offset: -25px;
+}
+
+.anim {
+    opacity: 0;
+}
+
+.anim.element-show {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.navbar-toggler-icon {
+    background-image: url("content/general/menu.svg")!important;
+}
+
+#mobile-collapse {
+    z-index: 10000;
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 3vh;
+
+    display: flex!important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#mobile-collapse:not(.show) { display: none!important; }
+
+#mobile-collapse .navbar-brand {
+    font-size: 1em;
+    border-bottom: 5px solid white;
+    padding: 12px 0;
+}
+
+#mobile-collapse div {
+    padding: 3% 0;
+}
+
+#mobile-collapse-social {
+    display: flex;
+    flex-direction: column;
+}
+
+#mobile-collapse-social a {
+    padding: 10% 0;
+}
+
+#mobile-collapse-social img {
+    width: 100%;
+}
+
+.close-toggler-icon {
+    background-image: url("content/general/cancel-white.svg")!important;
+}
+
+.post-card:not(.h1) {
+    font-size: 20px;
+}
+
+.post-card .h1 {
+    font-weight: bolder;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.about-description {
+    font-size: 26px;
+}
+
+.about-description .h1 {
+    padding: 24px;
+}
+
+.about-description p:not(.h1) {
+    padding: 0;
+    text-align: left;
+}

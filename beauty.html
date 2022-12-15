@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+<!--    <meta name="viewport" content="width=device-width, initial-scale 1.0">-->
+    <title>Smirrnoovva</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" >
+    <script defer src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script defer src="index.js"></script>
+    <link href="index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="collapse collapse-horizontal" id="mobile-collapse">
+    <div>
+        <a href="index.html" class="navbar-brand text-center">bysmirrnoovva</a>
+    </div>
+    <div>
+        <a href="beauty.html" class="nav-link">Красота</a>
+        <a href="fashion.html" class="nav-link">Мода</a>
+        <a href="looks.html" class="nav-link">Образы</a>
+    </div>
+    <div id="mobile-collapse-social">
+        <a href=""><img src="content/general/insta-white.svg" alt=""></a>
+        <a href=""><img src="content/general/telegram-white.svg" alt=""></a>
+        <a href=""><img src="content/general/facebook-white.svg" alt=""></a>
+        <a href=""><img src="content/general/email-white.png" alt=""></a>
+    </div>
+    <div>
+        <a href="about.html" class="nav-link">Об авторе</a>
+        <a href="about.html" class="nav-link">Контакты</a>
+    </div>
+    <div>
+        <a href="#" role="button" id="close-mobile-collapse" data-bs-toggle="collapse" aria-controls="mobile-collapse">
+            <img src="content/general/cancel-white.svg" alt="">
+        </a>
+    </div>
+</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-white bg-gradient container border-bottom border-4 border-dark">
+    <div class="container text-center p-0">
+        <button class="navbar-toggler border-0 col-1" type="button" data-bs-toggle="collapse" data-bs-target=".collapse" aria-controls="mobile-collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse col-3 d-md-none">
+            <div class="navbar-nav w-100 justify-content-between row row-cols-3 justify-content-center">
+                <a href="beauty.html" class="nav-link">Красота</a>
+                <a href="fashion.html" class="nav-link">Мода</a>
+                <a href="looks.html" class="nav-link">Образы</a>
+            </div>
+        </div>
+        <div class="col-lg-6 col"><a href="index.html" class="navbar-brand text-center">bysmirrnoovva</a></div>
+        <div class="col-2 col-lg-1 row row-cols-2 align-items-center">
+            <a href="#" class="nav-link"><img src="content/general/insta.png" alt=""></a>
+            <a class="nav-link"><img src="content/general/telegram.png" alt=""></a>
+        </div>
+        <div class="collapse navbar-collapse col-2 d-md-none" id="navbarSubMenu2">
+            <div class="navbar-nav w-100 justify-content-between row row-cols-2 align-items-center">
+                <a href="about.html" class="nav-link">Об авторе</a>
+                <a href="about.html" class="nav-link">Контакты</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<main class="container pt-3 pb-3">
+    <div class="row justify-content-between pt-3 pb-5 border-bottom border-4 border-dark text-center">
+        <div class="col-2 anim"><img src="content/beauty/image7.png" alt="" class="h-100 w-100"></div>
+        <div class="col-8 anim"><img src="content/beauty/image9.png" alt="" class="h-100 w-100"></div>
+        <div class="col-2 anim"><img src="content/beauty/image8.png" alt="" class="h-100 w-100"></div>
+    </div>
+    <div class="row pt-4">
+        <div class="row justify-content-evenly pt-3 pb-3 anim">
+            <div class="col-4 p-0"><img src="content/beauty/image10.png" alt="" class="w-100"></div>
+            <div class="col-5 border border-dark border-4 text-center align-content-between row ps-0 pe-0 pt-2 pb-2 p-lg-5 justify-content-center me-0 post-card">
+                <p class="h1">Новая линия уходовой косметики</p>
+                <p class="">Как вы хорошо знаете, мир ухода за кожей постоянно развивается, растет и расширяется...</p>
+                <button class="button col-5">Читать</button>
+            </div>
+        </div>
+        <div class="row justify-content-evenly pt-3 pb-3 anim">
+            <div class="col-5 border border-dark border-4 text-center align-content-between row ps-0 pe-0 pt-2 pb-2 p-lg-5 justify-content-center ms-0 post-card">
+                <p class="h1">Эксклюзивная губная помада</p>
+                <p class="">О чем мечтает каждый визажист? Обязательно создайте свою линию косметики.</p>
+                <button class="button col-5">Читать</button>
+            </div><div class="col-4 p-0"><img src="content/beauty/image11.png" alt="" class="w-100"></div>
+        </div>
+        <div class="row justify-content-evenly pt-3 pb-3 anim">
+            <div class="col-4 p-0"><img src="content/beauty/image12.png" alt="" class="w-100"></div>
+            <div class="col-5 border border-dark border-4 text-center align-content-between row ps-0 pe-0 pt-2 pb-2 p-lg-5 justify-content-center me-0 post-card">
+                <p class="h1">Представление адвент-календаря</p>
+                <p class="">MiiN Cosmetics — это название магазина корейской косметики, настоящей точки отсчета в Европе...</p>
+                <button class="button col-5">Читать</button>
+            </div>
+        </div>
+    </div>
+    <div class="text-center m-3">
+        <button class="button mainbutton fs-1 px-5 anim">Загрузить больше</button>
+    </div>
+</main>
+<footer class="container border-top border-4 border-dark">
+    <div class="row justify-content-evenly align-items-center">
+        <div class="col-lg-2 col-12 row justify-content-center">
+            <div class="col-lg col-2 row">
+                <div class="col-6"><a href=""><img src="content/general/insta.png" alt=""></a></div>
+                <div class="col-6"><a href=""><img src="content/general/telegram.png" alt=""></a></div>
+            </div>
+            <div class="col-lg col-2 row">
+                <div class="col-6"><a href=""><img src="content/general/facebook.png" alt=""></a></div>
+                <div class="col-6"><a href=""><img src="content/general/email.png" alt=""></a></div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-12 logo text-center"><a href="index.html">bysmirrnoovva</a></div>
+        <div class="col-lg-2 col-12 row">
+            <div class="col-lg-6 col-12"><a href="about.html">Автор</a></div>
+            <div class="col-lg-6 col-12"><a href="about.html">Контакты</a></div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

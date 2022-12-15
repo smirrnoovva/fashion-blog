@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+<!--    <meta name="viewport" content="width=device-width, initial-scale 1.0">-->
+    <title>Smirrnoovva</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" >
+    <script defer src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script defer src="index.js"></script>
+    <link href="index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="collapse collapse-horizontal" id="mobile-collapse">
+    <div>
+        <a href="index.html" class="navbar-brand text-center">bysmirrnoovva</a>
+    </div>
+    <div>
+        <a href="beauty.html" class="nav-link">Красота</a>
+        <a href="fashion.html" class="nav-link">Мода</a>
+        <a href="looks.html" class="nav-link">Образы</a>
+    </div>
+    <div id="mobile-collapse-social">
+        <a href=""><img src="content/general/insta-white.svg" alt=""></a>
+        <a href=""><img src="content/general/telegram-white.svg" alt=""></a>
+        <a href=""><img src="content/general/facebook-white.svg" alt=""></a>
+        <a href=""><img src="content/general/email-white.png" alt=""></a>
+    </div>
+    <div>
+        <a href="about.html" class="nav-link">Об авторе</a>
+        <a href="about.html" class="nav-link">Контакты</a>
+    </div>
+    <div>
+        <a href="#" role="button" id="close-mobile-collapse" data-bs-toggle="collapse" aria-controls="mobile-collapse">
+            <img src="content/general/cancel-white.svg" alt="">
+        </a>
+    </div>
+</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-white bg-gradient container border-bottom border-4 border-dark">
+    <div class="container text-center p-0">
+        <button class="navbar-toggler border-0 col-1" type="button" data-bs-toggle="collapse" data-bs-target=".collapse" aria-controls="mobile-collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse col-3 d-md-none" >
+            <div class="navbar-nav w-100 justify-content-between row row-cols-3 justify-content-center">
+                <a href="beauty.html" class="nav-link">Красота</a>
+                <a href="fashion.html" class="nav-link">Мода</a>
+                <a href="looks.html" class="nav-link">Образы</a>
+            </div>
+        </div>
+        <div class="col-lg-6 col"><a href="index.html" class="navbar-brand text-center">bysmirrnoovva</a></div>
+        <div class="col-2 col-lg-1 row row-cols-2 align-items-center">
+            <a href="#" class="nav-link"><img src="content/general/insta.png" alt=""></a>
+            <a class="nav-link"><img src="content/general/telegram.png" alt=""></a>
+        </div>
+        <div class="collapse navbar-collapse col-2 d-md-none" id="navbarSubMenu2">
+            <div class="navbar-nav w-100 justify-content-between row row-cols-2 align-items-center">
+                <a href="about.html" class="nav-link">Об авторе</a>
+                <a href="about.html" class="nav-link">Контакты</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <section class="row border-bottom border-4 border-dark">
+        <div class="col anim">
+            <img src="content/main_page/image1.png" alt="" class="w-100">
+        </div>
+    </section>
+
+    <section class="border-bottom border-dark border-4">
+        <h1 class="anim">Образы</h1>
+        <div class="row justify-content-center anim">
+            <div class="col-6"><img src="content/main_page/image2.png" alt="" class="w-100"></div>
+            <div class="col-4">
+                <img class="w-100" src="content/main_page/image3.png" alt="">
+                <img class="w-100" src="content/main_page/image4.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="anim">
+        <h1>Недавние посты</h1>
+        <div id="postsCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row row-cols-lg-2 justify-content-center">
+                        <div class="col-5"><img class="w-100" src="content/main_page/image5.png" alt=""></div>
+                        <div class="col-5"><img class="w-100" src="content/main_page/image6.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row row-cols-lg-2 justify-content-center">
+                        <div class="col-5"><img class="w-100" src="content/main_page/image1-1.jpg" alt=""></div>
+                        <div class="col-5"><img class="w-100" src="content/main_page/image1-2.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#postsCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#postsCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+</main>
+<footer class="container border-top border-4 border-dark">
+    <div class="row justify-content-evenly align-items-center">
+        <div class="col-lg-2 col-12 row justify-content-center">
+            <div class="col-lg col-2 row">
+                <div class="col-6"><a href=""><img src="content/general/insta.png" alt=""></a></div>
+                <div class="col-6"><a href=""><img src="content/general/telegram.png" alt=""></a></div>
+            </div>
+            <div class="col-lg col-2 row">
+                <div class="col-6"><a href=""><img src="content/general/facebook.png" alt=""></a></div>
+                <div class="col-6"><a href=""><img src="content/general/email.png" alt=""></a></div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-12 logo text-center"><a href="index.html">bysmirrnoovva</a></div>
+        <div class="col-lg-2 col-12 row">
+            <div class="col-lg-6 col-12"><a href="about.html">Автор</a></div>
+            <div class="col-lg-6 col-12"><a href="about.html">Контакты</a></div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
